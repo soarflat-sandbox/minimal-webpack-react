@@ -14,8 +14,10 @@ export default function App() {
       <button onClick={() => setCount(count + 1)}>+</button>
       <h2>Dog</h2>
       <img src={dog} alt="dog" width="400" />
-      <h2>Logo</h2>
+      <h2>Logo（Component）</h2>
       <Logo className="logo" />
+      <h2>Logo（BG）</h2>
+      <div className="logo-bg"></div>
     </>
   );
 }

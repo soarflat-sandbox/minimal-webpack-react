@@ -21,9 +21,16 @@ h1 {
 }
 
 .logo {
-  width: 20vw;
+  width: 200px;
 
   g {
     fill: white;
   }
+}
+
+.logo-bg {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: url('./logo.svg') no-repeat 100%;
 }
